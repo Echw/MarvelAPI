@@ -1,14 +1,14 @@
 import React from "react";
 import classes from "./heroSection.module.css";
+import logo from "./../../assets/images/pngegg.png";
 
 const HeroSection = () => {
   return (
-    <header>
-      <div className={classes.background}></div>
-      <div className={classes.logo}>
-        <img src="../../../public/img/pngegg.png" alt="marvel logo" />
+    <header className={classes.background}>
+      <div className={classes.pageHeader}>
+        <img src={logo} alt="marvel logo" />
+        <h1 className={classes.heroText}>HERO SEARCH</h1>
       </div>
-      <h1 className={classes.heroText}>HERO SEARCH</h1>
     </header>
   );
 };
