@@ -1,0 +1,14 @@
+.wraper {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5rem;
+  padding-bottom: 5rem;
+}
+
+.galleryWraper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
