@@ -23,19 +23,19 @@
 
 .form input {
   /* box-sizing: border-box; */
-  padding: 16px 48px;
+  padding: 0.5rem 3rem;
   background: rgba(224, 224, 224, 0.85);
   border: 3px solid #11111e;
   border-radius: 32px;
   width: 30vw;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
 
 .form input::placeholder {
   font-style: italic;
   font-weight: 400;
-  font-size: 1.5rem;
   text-align: center;
-  line-height: 1.5rem;
 }
 
 .form button {

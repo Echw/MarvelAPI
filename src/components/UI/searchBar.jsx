@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./searchBar.module.css";
+import classes from "./SearchBar.module.css";
 
 const SearchBar = () => {
   return (

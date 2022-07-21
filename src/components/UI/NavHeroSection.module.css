@@ -1,0 +1,15 @@
+.link {
+  padding-left: 2rem;
+  display: flex;
+  text-decoration: none;
+}
+
+.logo {
+  height: 6rem;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.85);
+  width: 5rem;
+  font-size: 1.5rem;
+}

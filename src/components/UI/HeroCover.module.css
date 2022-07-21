@@ -5,12 +5,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
+
   overflow: hidden;
 }
 
 .imgWraper img {
   height: 100%;
+  transform: scale(1.1);
 }
 
 .imgDark {
@@ -23,6 +24,7 @@
 
 .textImgWraper {
   position: relative;
+  cursor: pointer;
 }
 
 .textImgWraper h3 {

@@ -1,8 +1,8 @@
 import React from "react";
-import classes from "./heroSection.module.css";
+import classes from "./HeroDataSection.module.css";
 import logo from "./../../assets/images/pngegg.png";
 
-const HeroSection = () => {
+const HeroDataSection = () => {
   return (
     <header className={classes.background}>
       <div className={classes.pageHeader}>
@@ -13,4 +13,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default HeroDataSection;

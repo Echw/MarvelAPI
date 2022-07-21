@@ -1,12 +1,13 @@
 import React from "react";
-import Nav from "../components/UI/nav";
-import ComicsSection from "../components/UI/comicsSection";
+import MainHeroSection from "../components/UI/MainHeroSection";
+import ComicsHeroSection from "../components/UI/ComicsHeroSection";
+import { DATA } from "../store/data.constant";
 
-const HeroPage = () => {
+const HeroPage = (props) => {
   return (
     <div>
-      <Nav></Nav>
-      <ComicsSection></ComicsSection>
+      <MainHeroSection hero={DATA[0]} />
+      <ComicsHeroSection comics={DATA[0].comics} />
     </div>
   );
 };

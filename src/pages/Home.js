@@ -1,12 +1,12 @@
 import React from "react";
-import HeroSection from "../components/UI/heroSection";
-import SearchBar from "../components/UI/searchBar";
-import RandomHeroesSection from "../components/UI/randomHeroesSection";
+import HeroDataSection from "../components/UI/HeroDataSection";
+import SearchBar from "../components/UI/SearchBar";
+import RandomHeroesSection from "../components/UI/RandomHeroesSection";
 
 const Home = () => {
   return (
     <>
-      <HeroSection />
+      <HeroDataSection />
       <SearchBar />
       <RandomHeroesSection />
     </>

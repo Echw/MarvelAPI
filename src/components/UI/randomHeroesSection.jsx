@@ -1,14 +1,14 @@
 import React from "react";
-import classes from "./randomHeroesSection.module.css";
-import Hero from "./hero";
+import classes from "./RandomHeroesSection.module.css";
+import HeroCover from "./HeroCover";
 
 const RandomHeroesSection = () => {
   return (
     <div className={classes.wraper}>
       <div className={classes.galleryWraper}>
-        <Hero />
-        <Hero />
-        <Hero />
+        <HeroCover />
+        <HeroCover />
+        <HeroCover />
       </div>
     </div>
   );

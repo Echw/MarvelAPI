@@ -1,18 +1,3 @@
-nav {
-  padding-left: 2rem;
-  display: flex;
-}
-
-.logo {
-  height: 6rem;
-}
-
-h2 {
-  color: rgba(255, 255, 255, 0.85);
-  width: 5rem;
-  font-size: 1.5rem;
-}
-
 .heroInfoWraper {
   display: flex;
   background: rgba(17, 17, 30, 0.63);
@@ -28,6 +13,7 @@ h2 {
   font-weight: 900;
   font-size: 3rem;
   margin: 0;
+  width: 100%;
 }
 
 .img {
@@ -44,4 +30,16 @@ h2 {
   list-style: none;
   font-size: 1.5rem;
   font-weight: 900;
+}
+
+.new {
+  cursor: auto;
+}
+
+.new:hover > h3 {
+  opacity: 0;
+}
+
+.new > div > div {
+  background: none;
 }
