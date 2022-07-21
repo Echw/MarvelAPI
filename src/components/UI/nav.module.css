@@ -1,0 +1,47 @@
+nav {
+  padding-left: 2rem;
+  display: flex;
+}
+
+.logo {
+  height: 6rem;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.85);
+  width: 5rem;
+  font-size: 1.5rem;
+}
+
+.heroInfoWraper {
+  display: flex;
+  background: rgba(17, 17, 30, 0.63);
+  height: 25rem;
+  color: white;
+}
+.leftInfoWraper {
+  padding: 2rem 4rem;
+  width: 30vw;
+}
+
+.leftInfoWraper > h2 {
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.img {
+  padding-top: 4rem;
+}
+.img:hover {
+  background: none;
+}
+
+.rightInfoWraper {
+  padding: 2rem 4rem;
+}
+.rightInfoWraper > ul > li {
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 900;
+}

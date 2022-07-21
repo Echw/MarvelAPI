@@ -1,0 +1,13 @@
+.sectionWraper {
+  height: 60vh;
+  color: white;
+  padding: 2rem 4rem;
+}
+
+.imgWraper {
+  padding: 2rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}

@@ -1,14 +1,10 @@
 import React from "react";
-import HeroSection from "./components/UI/heroSection";
-import RandomHeroesSection from "./components/UI/randomHeroesSection";
-import SearchBar from "./components/UI/searchBar";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
     <div className="bg">
-      <HeroSection />
-      <SearchBar />
-      <RandomHeroesSection />
+      <AppRoutes />
     </div>
   );
 }
