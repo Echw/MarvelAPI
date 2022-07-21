@@ -7,6 +7,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Lato";
 }
 
 .background {
@@ -32,14 +33,15 @@ html {
 .pageHeader img {
   width: 14rem;
   height: auto;
+  opacity: 0.65;
 }
 
 .heroText {
-  font-family: "Lato";
   font-weight: 900;
   font-size: 4rem;
   text-align: center;
   color: white;
   margin: 0;
   margin-bottom: 2rem;
+  opacity: 0.85;
 }
