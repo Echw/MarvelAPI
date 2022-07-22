@@ -1,0 +1,29 @@
+.background {
+  height: 100vh;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.75) 75%
+    ),
+    url("../../assets/images/5742156.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heroInfoWraper {
+  display: flex;
+  background: rgba(17, 17, 30, 0.63);
+  height: 25rem;
+  color: white;
+}
+.leftInfoWraper {
+  padding: 2rem 4rem;
+  width: 30vw;
+}
+
+.leftInfoWraper > h2 {
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 0;
+  width: 100%;
+}

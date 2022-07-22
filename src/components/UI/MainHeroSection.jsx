@@ -4,7 +4,6 @@ import HeroCover from "./HeroCover";
 import NavHeroSection from "./NavHeroSection";
 
 const MainHeroSection = (props) => {
-  console.log(props.hero);
   return (
     <>
       <NavHeroSection />
