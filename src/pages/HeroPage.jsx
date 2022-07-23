@@ -5,7 +5,7 @@ import { useLocation } from 'react-router-dom';
 import SearchError from '../components/UI/SearchError';
 import { fetchHeros, fetchHeroComics } from './../utils/fetchMarvel';
 
-const HeroPage = (props) => {
+const HeroPage = () => {
   const location = useLocation();
   const [hero, setHero] = useState();
   const [comics, setComics] = useState();
@@ -18,7 +18,6 @@ const HeroPage = (props) => {
     location.state.enteredSearch !== undefined &&
     location.state.enteredSearch !== ''
   ) {
-    console.log('test1');
     if (!hero) {
       fetchHeros(location.state.enteredSearch)
         .then((data) => setHero(data.data.results[0]))

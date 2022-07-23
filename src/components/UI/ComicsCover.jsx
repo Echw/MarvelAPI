@@ -2,8 +2,6 @@ import React from 'react';
 import classes from './ComicsCover.module.css';
 
 const ComicsCover = (props) => {
-  console.log(props.item);
-
   return (
     <div className={classes.comicsWrap}>
       <img

@@ -34,8 +34,6 @@ export const fetchHero = async (id) => {
   let hash = getHash(ts, privateKey, apiKey);
   let url = `${heroUrl}?ts=${ts}&apikey=${apiKey}&hash=${hash}`;
 
-  console.log(url);
-
   try {
     let response = await fetch(url);
     let data = await response.json();
