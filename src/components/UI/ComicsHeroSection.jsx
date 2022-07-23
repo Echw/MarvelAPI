@@ -8,7 +8,7 @@ const ComicsHeroSection = (props) => {
       <h3>COMICS:</h3>
       <div className={classes.imgWraper}>
         {props.comics.map((item) => (
-          <ComicsCover item={item} />
+          <ComicsCover item={item} key={item.id} />
         ))}
       </div>
     </div>

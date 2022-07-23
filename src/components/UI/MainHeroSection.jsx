@@ -23,7 +23,7 @@ const MainHeroSection = (props) => {
             <div>
               <ul>
                 {props.hero.series.items.map((item) => (
-                  <li>{item.name}</li>
+                  <li key={item.resourceURI}>{item.name}</li>
                 ))}
               </ul>
             </div>
