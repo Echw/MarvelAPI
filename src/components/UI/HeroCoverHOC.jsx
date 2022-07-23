@@ -14,9 +14,8 @@ const HeroCoverHOC = (props) => {
 
   if (!hero) return <></>;
 
-  console.log(hero);
   return (
-    <Link to="/hero" state={hero}>
+    <Link to="/hero" state={{ hero }}>
       <HeroCover thumbnail={hero.thumbnail} name={hero.name} />
     </Link>
   );

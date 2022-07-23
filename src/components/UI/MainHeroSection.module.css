@@ -13,6 +13,7 @@
   font-weight: 900;
   font-size: 3rem;
   margin: 0;
+  padding: 0;
   width: 100%;
 }
 
@@ -25,11 +26,23 @@
 
 .rightInfoWraper {
   padding: 2rem 4rem;
+  overflow:hidden;
 }
-.rightInfoWraper > ul  {
+
+.rightInfoWraper> h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.rightInfoWraper > div {
+  overflow-y: auto;
+}
+
+.rightInfoWraper >div> ul  {
   list-style: none;
   font-size: 1rem;
   padding-inline-start: 0;
+  overflow-y: auto;
 
 }
 

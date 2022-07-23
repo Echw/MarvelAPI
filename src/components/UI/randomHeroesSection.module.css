@@ -1,9 +1,9 @@
 .wraper {
-  height: 60vh;
+
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 5rem;
+  margin: 3rem;
   padding-bottom: 5rem;
 }
 
