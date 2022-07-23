@@ -1,10 +1,15 @@
-import React from "react";
-import classes from "./ComicsCover.module.css";
+import React from 'react';
+import classes from './ComicsCover.module.css';
 
 const ComicsCover = (props) => {
+  console.log(props.item);
+
   return (
     <div className={classes.comicsWrap}>
-      {/* <img src={`${props.item.resourceURI}/portrait_fantastic.${} `} alt="" /> */}
+      <img
+        src={`${props.item.thumbnail.path}/portrait_xlarge.${props.item.thumbnail.extension}`}
+        alt=""
+      />
     </div>
   );
 };

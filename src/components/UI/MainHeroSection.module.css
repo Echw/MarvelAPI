@@ -1,8 +1,9 @@
 .heroInfoWraper {
   display: flex;
   background: rgba(17, 17, 30, 0.63);
-  height: 25rem;
+  /* height: 25rem; */
   color: white;
+  align-items: center;
 }
 .leftInfoWraper {
   padding: 2rem 4rem;

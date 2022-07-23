@@ -18,7 +18,6 @@ export const fetchHeros = async (name) => {
   try {
     let response = await fetch(url);
     let data = await response.json();
-
     return data;
   } catch (err) {
     console.error(err);
@@ -36,6 +35,24 @@ export const fetchHero = async (id) => {
   let url = `${heroUrl}?ts=${ts}&apikey=${apiKey}&hash=${hash}`;
 
   console.log(url);
+
+  try {
+    let response = await fetch(url);
+    let data = await response.json();
+    return data;
+  } catch (err) {
+    console.error(err);
+    return;
+  }
+};
+
+export const fetchHeroComics = async (id) => {
+  let comicUrl = `${API_URL}/v1/public/characters/${id}/comics`;
+  let ts = Date.now().toString();
+  let apiKey = process.env.REACT_APP_API_KEY;
+  let privateKey = process.env.REACT_APP_PRIVATE_KEY;
+  let hash = getHash(ts, privateKey, apiKey);
+  let url = `${comicUrl}?ts=${ts}&apikey=${apiKey}&hash=${hash}&limit=12`;
 
   try {
     let response = await fetch(url);
