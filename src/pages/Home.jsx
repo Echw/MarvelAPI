@@ -1,11 +1,12 @@
-import React, { useState } from "react";
-import HeroDataSection from "../components/UI/HeroDataSection";
-import SearchBar from "../components/UI/SearchBar";
-import RandomHeroesSection from "../components/UI/RandomHeroesSection";
-import { useNavigate } from "react-router-dom";
+import React, { useState } from 'react';
+import HeroDataSection from '../components/UI/HeroDataSection';
+import SearchBar from '../components/UI/SearchBar';
+import RandomHeroesSection from '../components/UI/RandomHeroesSection';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
-  const [enteredSearch, setEnteredSearch] = useState("");
+  const [enteredSearch, setEnteredSearch] = useState('');
+
   const navigation = useNavigate();
 
   const searchChangeHandler = (event) => {
@@ -14,7 +15,10 @@ const Home = () => {
 
   const onSearchSubmit = (event) => {
     event.preventDefault();
-    navigation("../hero", { state: { enteredSearch } });
+    if (enteredSearch.trim() === '') {
+      return;
+    }
+    navigation('../hero', { state: { enteredSearch } });
   };
 
   return (

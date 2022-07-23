@@ -1,6 +1,6 @@
 .imgWraper {
   height: 25rem;
-  width: 18rem;
+  width: 25rem;
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   display: flex;
   align-items: center;
@@ -10,8 +10,9 @@
 }
 
 .imgWraper img {
-  height: 100%;
-  transform: scale(1.1);
+  /* height: 100%; */
+  /* transform: scale(1.1); */
+  width: 100%;
 }
 
 .imgDark {
@@ -29,14 +30,17 @@
 
 .textImgWraper h3 {
   position: absolute;
-  top: 75%;
-  left: 20%;
+  top: 70%;
+  width: 20rem;
+  text-align: center;
   font-weight: 900;
   font-size: 2rem;
   color: #ffffff;
   -webkit-text-stroke: 0.1rem #11111e;
   opacity: 0;
   transition: 400ms;
+
+
 }
 
 .textImgWraper:hover > h3 {

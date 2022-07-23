@@ -1,5 +1,5 @@
-import React from "react";
-import classes from "./SearchBar.module.css";
+import React from 'react';
+import classes from './SearchBar.module.css';
 
 const SearchBar = (props) => {
   return (
@@ -11,7 +11,9 @@ const SearchBar = (props) => {
           placeholder="Search your hero"
           value={props.value}
         />
-        <button type="submit">Search</button>
+        <button type="submit" disabled={props.value.trim() === ''}>
+          Search
+        </button>
       </form>
     </div>
   );

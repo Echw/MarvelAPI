@@ -1,20 +1,20 @@
-import React from "react";
-import classes from "./HeroCover.module.css";
+import React from 'react';
+import classes from './HeroCover.module.css';
 
 const HeroCover = (props) => {
   return (
     <div className={`${classes.textImgWraper} ${props.className}`}>
       <div className={classes.imgWraper}>
-        {props.img && (
+        {props.thumbnail && (
           <img
-            src={`${props.img.path}/portrait_incredible.${props.img.extension}`}
+            src={`${props.thumbnail.path}/portrait_incredible.${props.thumbnail.extension}`}
             alt="hero"
             className={classes.img}
           />
         )}
         <div className={classes.imgDark}></div>
       </div>
-      <h3>MARVEL</h3>
+      <h3>{props.name}</h3>
     </div>
   );
 };

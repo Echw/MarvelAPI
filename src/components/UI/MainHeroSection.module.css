@@ -26,10 +26,11 @@
 .rightInfoWraper {
   padding: 2rem 4rem;
 }
-.rightInfoWraper > ul > li {
+.rightInfoWraper > ul  {
   list-style: none;
-  font-size: 1.5rem;
-  font-weight: 900;
+  font-size: 1rem;
+  padding-inline-start: 0;
+
 }
 
 .new {

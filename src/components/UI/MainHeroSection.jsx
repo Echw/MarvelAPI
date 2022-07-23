@@ -1,7 +1,7 @@
-import React from "react";
-import classes from "./MainHeroSection.module.css";
-import HeroCover from "./HeroCover";
-import NavHeroSection from "./NavHeroSection";
+import React from 'react';
+import classes from './MainHeroSection.module.css';
+import HeroCover from './HeroCover';
+import NavHeroSection from './NavHeroSection';
 
 const MainHeroSection = (props) => {
   return (
@@ -13,15 +13,13 @@ const MainHeroSection = (props) => {
             <h2>{props.hero.name}</h2>
             <p>{props.hero.description}</p>
           </div>
-          <HeroCover className={classes.new} img={props.hero.thumbnail} />
+          <HeroCover className={classes.new} thumbnail={props.hero.thumbnail} />
           <div className={classes.rightInfoWraper}>
+            <h2>Series:</h2>
             <ul>
-              <li>Data</li>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-              <li>Data</li>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-              <li>Data</li>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              {props.hero.series.items.map((item) => (
+                <li>{item.name}</li>
+              ))}
             </ul>
           </div>
         </div>

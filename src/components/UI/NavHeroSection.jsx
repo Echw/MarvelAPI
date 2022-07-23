@@ -1,7 +1,7 @@
-import React from "react";
-import logo from "../../assets/images/pngegg.png";
-import { Link } from "react-router-dom";
-import classes from "./NavHeroSection.module.css";
+import React from 'react';
+import logo from '../../assets/images/pngegg.png';
+import { Link } from 'react-router-dom';
+import classes from './NavHeroSection.module.css';
 
 const NavHeroSection = () => {
   return (

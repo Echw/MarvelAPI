@@ -54,3 +54,10 @@
 .form button:hover {
   opacity: 1;
 }
+
+.form button:disabled, .form button:disabled:hover, .form button:disabled:active {
+  background-color: #ccc;
+  color: black;
+  cursor: not-allowed;
+
+}
