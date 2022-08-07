@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/MarvelAPI/static/css/main.e7fc8223.css",
+    "main.js": "/MarvelAPI/static/js/main.bbbca98e.js",
+    "static/media/6502019 1.png": "/MarvelAPI/static/media/6502019 1.95862170b9b0244b3924.png",
+    "static/media/5742482.jpg": "/MarvelAPI/static/media/5742482.a20b0bd7a75e4294f939.jpg",
+    "static/media/5742156.jpg": "/MarvelAPI/static/media/5742156.d0dd916805f580c70ec2.jpg",
+    "static/media/pngegg.png": "/MarvelAPI/static/media/pngegg.7c66e653429d46d08206.png",
+    "index.html": "/MarvelAPI/index.html",
+    "main.e7fc8223.css.map": "/MarvelAPI/static/css/main.e7fc8223.css.map",
+    "main.bbbca98e.js.map": "/MarvelAPI/static/js/main.bbbca98e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7fc8223.css",
+    "static/js/main.bbbca98e.js"
+  ]
+}
