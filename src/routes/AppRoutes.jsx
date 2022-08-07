@@ -1,7 +1,7 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom";
-import Home from "../pages/Home";
-import HeroPage from "../pages/HeroPage";
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Home from '../pages/Home';
+import HeroPage from '../pages/HeroPage';
 
 const AppRoutes = () => {
   return (
